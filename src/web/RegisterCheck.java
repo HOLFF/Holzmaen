@@ -89,9 +89,9 @@ public class RegisterCheck extends HttpServlet {
             request.setAttribute("errormsg", "Benutzername oder Email bereits vergeben!");  // EINFÜGEN
             // Weiterleitung:
             RequestDispatcher d = request.getRequestDispatcher("Register.jsp");  // AUCH HIER DAS ZIEL ÄNDERN !!!
-            d.forward(request, response);
+        d.forward(request, response);
         }
 
-    }
+        }
 
-}
+        }
